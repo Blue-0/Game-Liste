@@ -1,0 +1,61 @@
+
+
+.formulaire {
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1%;
+  }
+
+  .bodyform {
+      background-color: #e2e2e2;
+      border-radius: 1vw;
+  margin: 2%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: grid;
+  grid-column: auto;}
+
+  input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+
+  label{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: start;
+  }
+
+  .buttonbloc{
+      text-align: right;
+  }
+  button {
+      border-radius: 1vw;
+      width: 15%;
+      background-color: #383838;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  button:hover {
+      background-color: #797979;
+  }
+
+  @media screen and (min-width: 1840px) {
+
+      .bodyform {
+          padding-left: 20vw;
+          padding-right: 20vw;
+          padding-top: 5vh;
+          padding-bottom: 5vh;
+        }
+  }
